@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 2rem;
+  padding: 1rem;
+}
+
+.logo {
+  width: 16rem;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+}
+
+.main_content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #EFF0FF;
+  width: 100%;
+  height: 45rem;
+}
+
+.presentation {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 50%;
+  height: 20rem;
+}
+
+
+.title {
+  font-size: 5rem;
+  line-height: 6rem;
+}
+
+.subtitle {
+  font-size: 2rem;
+  color: #464646;
+  font-weight: lighter;
+}
+
+button {
+  width: 25%;
+  height: 3rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  font-weight: bolder;
+  background: #F8D57E;
+  border-radius: 10px;
+  border: #F8D57E;
+}
+
+.main_image {
+  display: flex;
+  height: 40rem;
+  align-self: center;
+  align-items: center;
+}
+
+.image {
+  height: 30rem;
+  border-radius: 15px;
+}
+
+.video_presentation {
+  display: flex;
+  justify-content: center;
+  padding: 5rem;
+  background-color: #F2FAF8;
+}
+
+.benefits {
+  display: flex;
+  justify-content: center;
+  padding-inline: 2rem;
+}
+
+.cards_area {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.card {
+  width: 20rem;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.card_image {
+  width: 5rem;
+  height: 5rem;
+}
+
+.card_text {
+  text-align: center;
+  color: #464646;
+}
+
+.doctor_presentation {
+  background-color: #e1f6ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.doctor_image {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 100%;
+  padding: 2rem;
+}
+
+.doctor_phrase {
+  padding-left: 5rem;
+  width: 40rem;
+  font-size: large;
+  font-style: italic;
+  color: #464646;
+}
+
+.contact_us_section {
+  display: flex;
+  flex-direction: row;
+}
+
+.contact_us_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #EFF0FF;
+  width: 100%;
+  height: 45rem;
+}
+
+.contact-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 50%;
+  height: 20rem;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 2rem;
+  padding: 1rem;
+  justify-content: space-between;
+}
+
+.footer_content {
+  display: flex;
+}
+
+.social_media_area {
+  width: 10rem;
+  display: flex;
+  justify-content: center;
+}
+
+.social_media_icon {
+  width: 2rem;
+  padding-left: 2rem;
+
+}
+
+@media (max-width: 768px) {
+  .header {
+    height: 1rem;
+    padding: 1rem;
+    justify-content: center;
+  }
+
+  .logo {
+    width: 10rem;
+  }
+
+  .main {
+    display: flex;
+  }
+
+  .main_content {
+    flex-direction: column;
+    width: 100%;
+    height: 40rem;
+  }
+
+  .presentation {
+    padding-top: 2rem;
+    max-width: 80%;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .title {
+    font-size: 3rem;
+    line-height: 3rem;
+    text-align: center;
+  }
+
+  .subtitle {
+    padding-top: 1rem;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .image {
+    height: 15rem;
+    border-radius: 15px;
+    background-color: rgb(202, 212, 93);
+  }
+
+  button {
+    width: 100%;
+    padding-inline: 1rem;
+  }
+
+  .video_presentation {
+    display: flex;
+    justify-content: center;
+    width: auto;
+  }
+
+  .video {
+    width: 20rem;
+  }
+
+  .cards_area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .benefits {
+    display: flex;
+    justify-content: center;
+  }
+
+  .card {
+    width: 20rem;
+    height: 12rem;
+  }
+
+  .card_image {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .doctor_presentation {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .doctor_image {
+    width: 12rem;
+    height: 12rem;
+    border-radius: 100%;
+  }
+
+  .doctor_phrase {
+    text-align: center;
+    padding: 0;
+    display: flex;
+    width: 20rem;
+    font-size: medium;
+  }
+
+  .contact_us_container {
+    flex-direction: column;
+    height: 40rem;
+  }
+
+  .contact-us {
+    justify-content: space-between;
+    max-width: 70%;
+    height: 15rem;
+  }
+
+  .footer_content {
+    display: flex;
+    padding-left: 1rem;
+
+  }
+}
