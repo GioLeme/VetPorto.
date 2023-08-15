@@ -29,7 +29,7 @@ ul {
   padding: 1rem;
 }
 
-.logo {
+.header__logo {
   width: 16rem;
 }
 
@@ -38,7 +38,7 @@ ul {
   flex-direction: row;
 }
 
-.main_content {
+.main__content {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -47,7 +47,7 @@ ul {
   height: 45rem;
 }
 
-.presentation {
+.wrapper {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -78,7 +78,7 @@ button {
   border: #F8D57E;
 }
 
-.main_image {
+.main__image {
   display: flex;
   height: 40rem;
   align-self: center;
@@ -90,26 +90,30 @@ button {
   border-radius: 15px;
 }
 
-.video_presentation {
+.presentation-video {
   display: flex;
   justify-content: center;
   padding: 5rem;
   background-color: #F2FAF8;
 }
 
-.benefits {
+.presentation-video__video {
+  border-radius: 15px;
+}
+
+.our-services {
   display: flex;
   justify-content: center;
   padding-inline: 2rem;
 }
 
-.cards_area {
+.our-services__area {
   display: flex;
   justify-content: space-between;
   flex: 1;
 }
 
-.card {
+.our-services__card {
   width: 20rem;
   height: 20rem;
   display: flex;
@@ -119,17 +123,17 @@ button {
   align-items: center;
 }
 
-.card_image {
+.our-services__icon {
   width: 5rem;
   height: 5rem;
 }
 
-.card_text {
+.our-services__text {
   text-align: center;
   color: #464646;
 }
 
-.doctor_presentation {
+.quotation {
   background-color: #e1f6ff;
   display: flex;
   align-items: center;
@@ -137,14 +141,14 @@ button {
 }
 
 
-.doctor_image {
+.quotation__image {
   width: 20rem;
   height: 20rem;
   border-radius: 100%;
   padding: 2rem;
 }
 
-.doctor_phrase {
+.quotation__text {
   padding-left: 5rem;
   width: 40rem;
   font-size: large;
@@ -152,12 +156,12 @@ button {
   color: #464646;
 }
 
-.contact_us_section {
+.contact-us {
   display: flex;
   flex-direction: row;
 }
 
-.contact_us_container {
+.contact-us__content {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -166,12 +170,17 @@ button {
   height: 45rem;
 }
 
-.contact-us {
+.contact-us__wrapper {
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: space-between;
-  max-width: 50%;
+  width: 50%;
   height: 20rem;
+}
+
+.contact-us__button {
+  width: 100%;
 }
 
 .footer {
@@ -183,17 +192,17 @@ button {
   justify-content: space-between;
 }
 
-.footer_content {
+.footer__content {
   display: flex;
 }
 
-.social_media_area {
+.social-media__area {
   width: 10rem;
   display: flex;
   justify-content: center;
 }
 
-.social_media_icon {
+.social-media__icon {
   width: 2rem;
   padding-left: 2rem;
 
@@ -206,7 +215,7 @@ button {
     justify-content: center;
   }
 
-  .logo {
+  .header__logo {
     width: 10rem;
   }
 
@@ -214,13 +223,13 @@ button {
     display: flex;
   }
 
-  .main_content {
+  .main__content {
     flex-direction: column;
     width: 100%;
     height: 40rem;
   }
 
-  .presentation {
+  .wrapper {
     padding-top: 2rem;
     max-width: 80%;
     align-items: center;
@@ -250,50 +259,50 @@ button {
     padding-inline: 1rem;
   }
 
-  .video_presentation {
+  .presentation-video {
     display: flex;
     justify-content: center;
     width: auto;
   }
 
-  .video {
+  .presentation-video__video {
     width: 20rem;
   }
 
-  .cards_area {
+  .our-services__area {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
 
-  .benefits {
+  .our-services {
     display: flex;
     justify-content: center;
   }
 
-  .card {
+  .our-services__card {
     width: 20rem;
     height: 12rem;
   }
 
-  .card_image {
+  .our-services__icon {
     width: 5rem;
     height: 5rem;
   }
 
-  .doctor_presentation {
+  .quotation {
     flex-direction: column;
     align-items: center;
   }
 
-  .doctor_image {
+  .quotation__image {
     width: 12rem;
     height: 12rem;
     border-radius: 100%;
   }
 
-  .doctor_phrase {
+  .quotation__text {
     text-align: center;
     padding: 0;
     display: flex;
@@ -301,18 +310,22 @@ button {
     font-size: medium;
   }
 
-  .contact_us_container {
+  .contact-us__content {
     flex-direction: column;
     height: 40rem;
   }
 
-  .contact-us {
+  .contact-us__wrapper {
+    width: 70%;
+  }
+
+  .contact-us__text {
     justify-content: space-between;
-    max-width: 70%;
+    max-width: 100%;
     height: 15rem;
   }
 
-  .footer_content {
+  .footer__content {
     display: flex;
     padding-left: 1rem;
 
