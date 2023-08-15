@@ -76,6 +76,11 @@ button {
   background: #F8D57E;
   border-radius: 10px;
   border: #F8D57E;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #f5cd67;
 }
 
 .main__image {
@@ -205,7 +210,6 @@ button {
 .social-media__icon {
   width: 2rem;
   padding-left: 2rem;
-
 }
 
 @media (max-width: 768px) {
